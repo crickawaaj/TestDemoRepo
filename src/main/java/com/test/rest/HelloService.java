@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
  * 
  */
 @RestController
-@RequestMapping("/test")
+@RequestMapping("/api")
 public class HelloService {
 	
-	 @GetMapping("/demo")
+	 @GetMapping("/hello")
 		public String testService() {
 	    	
 	    	return "my service invoke";
